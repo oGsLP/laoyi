@@ -35,11 +35,11 @@ laoyi('捞得一').then(data=>{console.log(data)});  // => Get one
 MIT © [oGsLP](oGsLP.github.io)
 
 
-[npm-image]: https://badge.fury.io/js/ly.svg
-[npm-url]: https://npmjs.org/package/ly
-[travis-image]: https://travis-ci.com/oGsLP/ly.svg?branch=master
-[travis-url]: https://travis-ci.com/oGsLP/ly
-[daviddm-image]: https://david-dm.org/oGsLP/ly.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/oGsLP/ly
-[coveralls-image]: https://coveralls.io/repos/oGsLP/ly/badge.svg
-[coveralls-url]: https://coveralls.io/r/oGsLP/ly
+[npm-image]: https://badge.fury.io/js/laoyi.svg
+[npm-url]: https://npmjs.org/package/laoyi
+[travis-image]: https://travis-ci.com/oGsLP/laoyi.svg?branch=master
+[travis-url]: https://travis-ci.com/oGsLP/laoyi
+[daviddm-image]: https://david-dm.org/oGsLP/laoyi.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/oGsLP/laoyi
+[coveralls-image]: https://coveralls.io/repos/oGsLP/laoyi/badge.svg
+[coveralls-url]: https://coveralls.io/r/oGsLP/laoyi
