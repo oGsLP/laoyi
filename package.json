@@ -64,7 +64,7 @@
     "lint": "eslint .",
     "test": "jest",
     "coverage": "jest --coverage",
-    "coveralls": "cat test/coverage/lcov.info | coveralls"
+    "coveralls": "jest --coverage && cat test/coverage/lcov.info | coveralls"
   },
   "bin": {
     "ly": "./bin/ly.js",

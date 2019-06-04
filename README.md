@@ -37,8 +37,8 @@ MIT © [oGsLP](oGsLP.github.io)
 
 [npm-image]: https://badge.fury.io/js/ly.svg
 [npm-url]: https://npmjs.org/package/ly
-[travis-image]: https://travis-ci.org/oGsLP/ly.svg?branch=master
-[travis-url]: https://travis-ci.org/oGsLP/ly
+[travis-image]: https://travis-ci.com/oGsLP/ly.svg?branch=master
+[travis-url]: https://travis-ci.com/oGsLP/ly
 [daviddm-image]: https://david-dm.org/oGsLP/ly.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/oGsLP/ly
 [coveralls-image]: https://coveralls.io/repos/oGsLP/ly/badge.svg
