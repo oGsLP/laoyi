@@ -9,11 +9,27 @@ $ npm install --save laoyi
 
 ## Usage
 
+* As lib
 ```js
 const laoyi = require('laoyi');
 
-laoyi('Rainbow');
+laoyi('lao').then(data=>{console.log(data)});    // => 老
+laoyi('捞得一').then(data=>{console.log(data)});  // => Get one
 ```
+
+* As cli
+```sh
+> npm install -g laoyi
+
+// used by ly/laoyi [options][content]
+
+> ly 捞得一
+  Get one
+  
+> laoyi lao
+  老
+```
+
 ## License
 
 MIT © [oGsLP](oGsLP.github.io)
