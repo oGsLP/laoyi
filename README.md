@@ -1,18 +1,18 @@
-# ly [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# laoyi [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > fan yi module for lao bros
 
 ## Installation
 
 ```sh
-$ npm install --save ly
+$ npm install --save laoyi
 ```
 
 ## Usage
 
 ```js
-const ly = require('ly');
+const laoyi = require('laoyi');
 
-ly('Rainbow');
+laoyi('Rainbow');
 ```
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "laoyi",
-  "version": "0.0.3",
+  "version": "0.2.0",
   "description": "fan yi module for lao bros",
   "homepage": "",
   "author": {
@@ -9,9 +9,9 @@
     "url": "oGsLP.github.io"
   },
   "files": [
-	  "bin",
-      "lib",
-	  "laoyi.js"
+    "bin",
+    "lib",
+    "laoyi.js"
   ],
   "main": "index.js",
   "keywords": [
@@ -20,15 +20,15 @@
     "translate"
   ],
   "devDependencies": {
-    "coveralls": "^3.0.2",
+    "coveralls": "^3.0.3",
     "eslint": "^5.9.0",
-    "prettier": "^1.15.2",
-    "husky": "^1.2.0",
-    "lint-staged": "^8.1.0",
     "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0",
     "eslint-config-xo": "^0.25.0",
-    "jest": "^23.5.0"
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^23.5.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2"
   },
   "engines": {
     "npm": ">= 4.0.0"
@@ -53,15 +53,18 @@
       "node": true
     },
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "camelcase": "off"
     },
     "plugins": [
       "prettier"
     ]
   },
   "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "coveralls": "cat test/coverage/lcov.info | coveralls"
   },
   "bin": {
     "ly": "./bin/ly.js",
@@ -69,14 +72,28 @@
   },
   "repository": "oGsLP/laoyi",
   "jest": {
-    "testEnvironment": "node"
+    "coverageDirectory": "test/coverage",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/(*.)+(spec|test).js"
+    ],
+    "testPathIgnorePatterns": [
+      "\\\\node_modules\\\\"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "html",
+      "text",
+      "text-summary"
+    ]
   },
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.0",
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
-    "is-chinese": "^1.2.9",
     "md5.js": "^1.3.5",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "test-chinese": "^0.1.1"
   }
 }
